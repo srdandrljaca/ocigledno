@@ -1,1 +1,1 @@
-# stanjenacije
+# ocigledno
