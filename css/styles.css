@@ -1,4 +1,13 @@
-body{background-color: #F5EFE6;}
+/*****************TAG SELECTRORS********************/
+body{
+    background-color: #F5EFE6;
+    margin: 0;
+    padding: 10px;
+}
+h1{
+    color: #7895B2;
+    margin-top: 0;
+}
 hr{
     background-color: #F5EFE6;
     border-style: dotted none none;
@@ -8,5 +17,13 @@ hr{
 
 }
 img{height: 100px;}
-h1{color: #7895B2;}
+
 h3{color: #7895B2;}
+
+/*****************CLAS SELECTRORS********************/
+.KoSamJa{
+    background-color: #AEBDCA;
+}
+.bold{
+    text-decoration: underline;
+}
