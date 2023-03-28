@@ -1,29 +1,84 @@
 /*****************TAG SELECTRORS********************/
+a{
+    color: #11999E;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
 body{
     background-color: #F5EFE6;
+    color: #40514E;;
+    font-family: arial, sans-serif;
+    font-size: smaller;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
 }
 h1{
     color: #7895B2;
-    margin-top: 0;
+    margin: 0;
 }
 hr{
-    background-color: #F5EFE6;
-    border-style: dotted none none;
-    border-width: 2px;
-    height: 2px;
-    width: 10%;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 10px auto;
 
 }
 img{height: 100px;}
 
 h3{color: #7895B2;}
 
+p{
+    margin: 5px;
+}
+
 /*****************CLAS SELECTRORS********************/
+
+.MojaSlika{
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+    padding: 10px;
+}
 .KoSamJa{
+    position: relative;
+    padding-top: 20px;
+}
+.container-KoSamJa{
     background-color: #AEBDCA;
+    position: relative;
+    width: 100%;
+    height: 120px;
+
+
 }
 .bold{
     text-decoration: underline;
 }
+
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:100px;
+    height:30px;
+    border-width:1px;
+    color:#fff;
+    border-color:#4e6096;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background:linear-gradient(rgb(120, 146, 194), #476e9e);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#476e9e, rgb(120, 146, 194));
+  }
+
+  .bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    text-align: center;
+  }
